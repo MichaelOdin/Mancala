@@ -1,0 +1,101 @@
+import java.util.Arrays;
+
+public class Mancala
+{
+    private int[] board;
+
+    /**
+     * Constructs a Mancala object using the specified
+     * board length and seeds.
+     *
+     * Each pit will contain the specified number of seeds.
+     * Each mancala will contain 0 seeds.
+     *
+     * Precondition: boardLength is a even number > 1.
+     *
+     * @param boardLength total number of pits including mancalas
+     * @param seeds number of seeds to put in the non-mancala pits
+     */
+    public Mancala(int boardLength, int seeds)
+    {
+
+    }
+
+    /**
+     * @param player
+     * @return total number of seeds in the specified
+     * 			player's pits (not counting mancala seeds)
+     */
+    public int getSeeds(int player)
+    {
+
+    }
+
+    /**
+     * @return board
+     */
+    public int[] getBoard()
+    {
+
+    }
+
+    /**
+     * Simulates a Mancala move by removing all the seeds from the
+     * specified pit and "sowing" them into the subsequent pits.
+     * This method will detect and execute a capture if one exists.
+     *
+     * Precondition: board[pit] > 0
+     * Precondition: 0 < pit < board.length / 2
+     * 				 board.length / 2 < pit < board.length
+     *
+     * @param pit
+     * @return 1 if Player 1 should move next
+     * 		   2 if Player 2 should move next
+     */
+    public int move(int pit)
+    {
+
+    }
+
+    /**
+     * Precondition: 0 <= pit < board.length
+     *
+     * @param pit
+     * @return 1 or 2 depending on which player pit belongs to
+     */
+    private int whosePit(int pit)
+    {
+
+    }
+
+    /**
+     * @return 1 if Player 1 is the winner,
+     *         2 if Player 2 is the winner,
+     *         0 if the game is not over.
+     */
+    public int getWinner()
+    {
+
+    }
+
+    /**
+     * Returns true if the game is over, false otherwise.
+     * The game is over if a player cannot make a move i.e.
+     * there are no seeds on their side of the board.
+     *
+     * @return true if the game is over, false otherwise.
+     */
+    public boolean gameOver()
+    {
+
+    }
+
+    /**
+     * @return the contents of board
+     */
+    @Override
+    public String toString()
+    {
+
+    }
+}
