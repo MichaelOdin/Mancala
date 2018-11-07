@@ -1,0 +1,4 @@
+In this project the Mancala board translates to Array like so:
+|   | 13| 12| 11| 10| 9 | 8 |   | 
+| 0 |-----------------------| 7 |
+|   | 1 | 2 | 3 | 4 | 5 | 6 |   |
